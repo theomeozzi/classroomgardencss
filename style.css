@@ -1,0 +1,299 @@
+/* Mini Reset CSS */
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+header
+{
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 20px;
+	margin: 0 auto;
+	margin-top: 5px;
+	width: 60%;
+	height: 60px;
+	text-align: center;
+	background: linear-gradient(to right, #215687, #A51363);
+	color: #FFFFFF;
+}
+
+li
+{
+	list-style: none;
+}
+
+.tools
+{
+	text-align: center;
+}
+
+.promo-2021
+{
+	text-align: center;
+}
+
+.promo-2021 h2
+{
+	background-color: #CFE9FF;
+	color: #0B5798;
+}
+
+.promo-2021 ul
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.linkedin
+{
+	color: #FFFFFF;
+}
+
+.linkedin:hover
+{
+	text-decoration: none;
+}
+
+.linkedin:visited
+{
+	color: #FFFFFF;
+}
+
+.github
+{
+	color: #FFFFFF;
+}
+
+.github:hover
+{
+	text-decoration: none;
+}
+
+.github:visited
+{
+	color: #FFFFFF;
+}
+
+.networks_links li
+{
+	background-color: rgba(255, 255, 255, 0) !important;
+	border-radius: 0px !important;
+	margin-bottom: 5px;
+}
+
+.promo-2021 li
+{
+	border-radius: 20px;
+	margin-top: 20px;
+	background-color: #007FEB;
+	width: 300px;
+}
+
+.promo-2021 li:nth-child(17)
+{
+	border-radius: 20px;
+	margin-top: 20px;
+	background-color: #FA65FF;
+	width: 300px;
+}
+.promo-2021 li:nth-child(20)
+{
+	border-radius: 20px;
+	margin-top: 20px;
+	background-color: #FA65FF;
+	width: 300px;
+}
+
+.teachers
+{
+	text-align: center;
+}
+
+.teachers h2
+{
+	background-color: #CFE9FF;
+	color: #0B5798;
+}
+
+.teachers ul:nth-of-type(1)
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.teachers li
+{
+	border-radius: 20px;
+	margin-top: 20px;
+	background-color: #007FEB;
+	width: 300px;
+}
+
+.teachers li:nth-child(2)
+{
+	border-radius: 20px;
+	margin-top: 20px;
+	background-color: #FA65FF;
+	width: 300px;
+}
+
+.php
+{
+	background-color: #004E90 !important;
+	border-radius: 0px !important;
+	border-bottom-left-radius: 20px !important;
+	color: #FFFFFF;
+}
+
+.prestashop
+{
+	background-color: #004E90 !important;
+	border-radius: 0px !important;
+	border-bottom-right-radius: 20px !important;
+	color: #FFFFFF;
+}
+
+.webdesign
+{
+	background-color: #EEB1F2 !important;
+	border-radius: 0px !important;
+	border-bottom-left-radius: 20px !important;
+	border-bottom-right-radius: 20px !important;
+	color: #FFFFFF;
+	margin-top: 69px !important;
+}
+
+.css
+{
+	background-color: #004E90 !important;
+	border-radius: 0px !important;
+	border-bottom-left-radius: 20px !important;
+	color: #FFFFFF;
+}
+
+.drupal
+{
+	background-color: #004E90 !important;
+	border-radius: 0px !important;
+	border-bottom-right-radius: 20px !important;
+	color: #FFFFFF;
+}
+
+.teaching
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.promo-2020
+{
+	display: none;
+}
+
+.promo-2018
+{
+	display: none;
+}
+
+.promo-2013
+{
+	display: none;
+}
+
+.footer
+{
+	background-color: #004E90;
+	color: #FFFFFF;
+}
+
+.outro
+{
+	display: none;
+}
+
+.miw_contact
+{
+	text-align: center;
+}
+
+.miw_contact a
+{
+	color: #AAAAAA;
+}
+
+/* CSS Dark Mode */
+
+@media screen and (prefers-color-scheme: dark)
+{
+	body
+	{
+		background-color: #2E2D2D;
+		/*color: #949191;*/
+		color: #DBDBDB;
+	}
+}
+
+/* CSS Print */
+
+@media print
+{
+	body
+	{
+		color: #000000;
+	}
+
+	header
+	{
+		background-color: #FFFFFF;
+		color: #000000;
+	}
+
+	header h1
+	{
+		font-size: 26px;
+	}
+
+	.promo-2021 li
+	{
+		margin-top: -1px;
+	}
+
+	.promo-2021 h2
+	{
+		color: #000000;
+		font-size: 26px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+	.tools
+	{
+		display: none;
+	}
+
+	li
+	{
+		background-color: rgba(255, 255, 255, 0);
+	}
+
+	.networks_links
+	{
+		visibility: hidden;
+	}
+
+	.footer
+	{
+		display: none;
+	}
+
+	.teachers
+	{
+		display: none;
+	}
+}
